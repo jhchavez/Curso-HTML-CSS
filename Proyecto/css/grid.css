@@ -1,0 +1,47 @@
+.container {
+    /* display: grid; */
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.row { /*row es padre y columna es hijo = container > row > column*/
+    display: flex;
+}
+
+.col-1 {
+    width: 8,333333333%;
+}
+.col-2 {
+    width: 16.666666666%;
+}
+.col-3 {
+    width: 24.999999999%;
+}
+.col-4 {
+    width: 33.333333333%;
+}
+.col-5 {
+    width: 41.666666666%;
+}
+.col-6 {
+    width: 49.999999999%;
+}
+.col-7 {
+    width: 58.333333333%;
+}
+.col-8 {
+    width: 66.666666666%;
+}
+.col-9 {
+    width: 74.999999999%;
+}
+.col-10 {
+    width: 83.333333333%;
+}
+.col-11 {
+    width: 91.666666666%;
+}
+.col-12 {
+    width: 100%;
+}
