@@ -1,0 +1,27 @@
+:root{
+    /*------ Colores */
+    --green-color: #7ACC2D;
+    --black-color: #313337;
+    --white-color: white;
+    /*------ Tipografía */
+    --normal:12px;
+    /*------ Espaciado */
+    --space:10px;
+    --space-2:20px;
+    /*box-shadow: ;*/
+    --box:0px 0 2px 1px #e6e5e9;
+    }
+
+body {
+    background-color: var(--black-color);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-paypal a {
+    color: var(--green-color);
+}
