@@ -20,6 +20,8 @@
 /*------ Espaciado */
 --space:10px;
 --space-2:20px;
+/*box-shadow: ;*/
+--box:0px 0 2px 1px #e6e5e9;
 }
 
 /* -------------------------------------------  */
@@ -155,7 +157,24 @@ box-shadow: 0px 0 2px 1px #e6e5e9;
 .mention .text{
 padding: var(--space);
 }
+/* ------------------------------------------- ventas */
 
+.modulo-pago {
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.modulo-pago-img {
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.container-pago {
+    margin: 100px;
+}
 /* ------------------------------------------- Footer */
 footer{
 display: flex;
